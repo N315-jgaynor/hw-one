@@ -1,0 +1,42 @@
+.home {
+  .home-welcome {
+    height: 400px;
+    background-color: $site-blue;
+    display: flex;
+    flex-direction: column;
+
+    .home-welcome-title {
+      color: white;
+      text-align: center;
+      margin: 0 auto;
+      max-height: 200px;
+
+      h1 {
+        font-family: RobotoBold;
+        font-size: 30px;
+        margin: 20px auto 5px auto;
+      }
+
+      h2 {
+        font-family: Roboto;
+        font-size: 18px;
+      }
+    }
+
+    .home-welcome-content {
+      display: flex;
+      margin: 20px 50px 0 50px;
+      justify-content: space-between;
+
+      .hwc-one {
+        @include home-welcomeBox("../images/online-training.png");
+      }
+      .hwc-two {
+        @include home-welcomeBox("../images/membership.png");
+      }
+      .hwc-three {
+        @include home-welcomeBox("../images/gym-finder.png");
+      }
+    }
+  }
+}

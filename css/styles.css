@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+nav {
+  height: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-logo {
+  height: 100px;
+  width: 200px;
+  background-image: url(../../images/usapl-logo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 70px;
+}
+nav .nav-links {
+  margin-right: 70px;
+  font-size: 20px;
+  font-family: Roboto;
+}
+nav .nav-links a {
+  text-decoration: none;
+  color: #002d62;
+  margin-left: 25px;
+}
+
+.home .home-welcome {
+  height: 400px;
+  background-color: #002d62;
+  display: flex;
+  flex-direction: column;
+}
+.home .home-welcome .home-welcome-title {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  max-height: 200px;
+}
+.home .home-welcome .home-welcome-title h1 {
+  font-family: RobotoBold;
+  font-size: 30px;
+  margin: 20px auto 5px auto;
+}
+.home .home-welcome .home-welcome-title h2 {
+  font-family: Roboto;
+  font-size: 18px;
+}
+.home .home-welcome .home-welcome-content {
+  display: flex;
+  margin: 20px 50px 0 50px;
+  justify-content: space-between;
+}
+.home .home-welcome .home-welcome-content .hwc-one {
+  height: 250px;
+  width: 390px;
+  border: 4px solid white;
+  border-radius: 6px;
+  background-image: url("../images/online-training.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .home-welcome .home-welcome-content .hwc-two {
+  height: 250px;
+  width: 390px;
+  border: 4px solid white;
+  border-radius: 6px;
+  background-image: url("../images/membership.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .home-welcome .home-welcome-content .hwc-three {
+  height: 250px;
+  width: 390px;
+  border: 4px solid white;
+  border-radius: 6px;
+  background-image: url("../images/gym-finder.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us .about-us-header {
+  height: 120px;
+  background-color: #002d62;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.about-us .about-us-header h1 {
+  font-size: 40px;
+  font-family: RobotoBold;
+  margin: auto auto auto 70px;
+}
+.about-us .about-us-content {
+  margin: 30px 70px 0 70px;
+  min-height: 100px;
+}
+.about-us .about-us-content p {
+  margin-bottom: 30px;
+  color: #333;
+  font-family: Roboto;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.athletes .athletes-header {
+  height: 120px;
+  background-color: #002d62;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.athletes .athletes-header h1 {
+  font-size: 40px;
+  font-family: RobotoBold;
+  margin: auto auto auto 70px;
+}
+
+footer {
+  height: 500px;
+  background-color: #002d62;
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=styles.css.map */

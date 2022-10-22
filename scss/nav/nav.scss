@@ -1,0 +1,30 @@
+nav {
+  height: 145px;
+  // background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .nav-logo {
+    height: 100px;
+    width: 200px;
+    background-image: url(../../images/usapl-logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 70px;
+  }
+
+  .nav-links {
+    margin-right: 70px;
+    // website says 18, just add 2
+    font-size: 20px;
+    font-family: Roboto;
+
+    a {
+      text-decoration: none;
+      color: $site-blue;
+      margin-left: 25px;
+    }
+  }
+}

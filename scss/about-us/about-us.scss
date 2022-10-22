@@ -1,0 +1,18 @@
+.about-us {
+  .about-us-header {
+    @include globalHeader();
+  }
+
+  .about-us-content {
+    margin: 30px 70px 0 70px;
+    min-height: 100px;
+
+    p {
+      margin-bottom: 30px;
+      color: $site-black;
+      font-family: Roboto;
+      font-size: 19px;
+      line-height: 1.5;
+    }
+  }
+}
