@@ -1,5 +1,60 @@
 footer {
-  height: 500px;
+  min-height: 300px;
   background-color: $site-blue;
   margin-top: 30px;
+
+  .footer-content {
+    margin: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    color: white;
+
+    .footer-content-one {
+      @include footerContent();
+    }
+
+    .footer-content-two {
+      @include footerContent();
+    }
+
+    .footer-content-three {
+      @include footerContent();
+    }
+  }
+
+  .footer-divider {
+    height: 2px;
+    background-color: white;
+    margin: 30px 70px;
+  }
+
+  .footer-bottom {
+    height: 70px;
+    margin: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+
+    .footer-bottom-copyright {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .footer-bottom-socials {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        margin: 0 0 0 30px;
+      }
+    }
+  }
 }
