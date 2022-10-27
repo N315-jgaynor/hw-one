@@ -4,7 +4,7 @@ This is N315 Assignment One.
 
 ## URL Link
 
-http://in-info-web4.informatics.iupui.edu/~jgaynor/public.html/hw-one.html
+in-info-web4.informatics.iupui.edu/~jgaynor/hw-one/index.html
 
 ### About
 
